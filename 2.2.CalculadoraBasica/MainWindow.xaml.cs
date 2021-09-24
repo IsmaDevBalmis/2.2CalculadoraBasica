@@ -53,7 +53,7 @@ namespace _2._2.CalculadoraBasica
                         resultadoTextBox.Text = resultado.ToString();
                         break;
                     case "/":
-                        if (operando2 != 0)
+                        if (operando2 != 0 && operando1 != 0)
                         {
                             resultado = operando1 / operando2;
                             resultadoTextBox.Text = resultado.ToString();
