@@ -34,9 +34,9 @@ namespace _2._2.CalculadoraBasica
             try
             {
                 operador = operadorTextBox.Text;
-                int operando1 = int.Parse(operando1TextBox.Text);
-                int operando2 = int.Parse(operando2TextBox.Text);
-                int resultado = 0;
+                float operando1 = float.Parse(operando1TextBox.Text);
+                float operando2 = float.Parse(operando2TextBox.Text);
+                float resultado = 0;
 
                 switch (operador)
                 {
